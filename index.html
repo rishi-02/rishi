@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
@@ -21,7 +22,7 @@
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-light btn-primary fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light btn-light fixed-top">
         <a class="navbar-brand" href="#">RS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,7 +63,7 @@
     </nav>
     <!--hero start-->
     <section class="hero d-flex align-items-center">
-        <div class="container text-center">
+        <div class="container text-center rellax" data-rellax-speed="10">
             <span class="text-white font-weight-bold hero-tagline">
                 Hi There
             </span>
@@ -76,15 +77,18 @@
                 occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
             </p>
-            <button class="btn btn-danger font-weight-bold btn-lg mt-3 mt-md-5">Scroll down</button>
+            <a class="btn btn-outline-success font-weight-bold btn-lg mt-3 mt-md-5 smooth" href="#intro">
+                Scroll down
+            </a>
+
 
 
         </div>
     </section>
     <!--hero end-->
     <!--intro start-->
-    <section class="py-5">
-        <div class="container d-md-flex">
+    <section class="py-5" id="intro">
+        <div class="container d-flex flex-wrap">
             <!--col left start-->
             <div class="col-12 col-md-6 d-flex align-items-center">
                 <div class="container">
@@ -118,7 +122,7 @@
         <div class="container mt-5">
             <div class="card-deck">
                 <div class="card">
-                    <i class="fab fa-accessible-icon intro-icon mt-4"></i>
+                    <i class="fab fa-adn intro-icon mt-4"></i>
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
@@ -128,7 +132,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <i class=" fas fa-address-book intro-icon mt-4"></i>"
+                    <i class="fas fa-atom intro-icon mt-4"></i>
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional
@@ -137,7 +141,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <i class="fas fa-anchor intro-icon mt-4"></i>
+                    <i class="far fa-compass intro-icon mt-4"></i>
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
@@ -153,11 +157,11 @@
     <!-- intro end -->
     <!-- services start-->
     <section class="py-5">
-        <div class="container-fluid px-md-0 d-md-flex">
-            <div class="col-12 col-md-6 px-md-0">
+        <div class="container-fluid px-xl-0 d-xl-flex">
+            <div class="col-12 col-xl-6 px-xl-0">
                 <img src="hero2.jpg" alt="" class="img-fluid" />
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-xl-6 my-4">
                 <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="headingOne">
@@ -243,8 +247,8 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid px-md-0 d-md-flex">
-            <div class="col-12 col-md-6 d-md-flex align-items-center">
+        <div class="container-fluid px-xl-0 d-flex flex-wrap">
+            <div class="col-12 col-xl-6 d-xl-flex align-items-center order-2 order-xl-1 my-4">
                 <div class="container">
                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
@@ -268,7 +272,7 @@
                                 perferendis facilis molestias nihil dolore doloribus eos, dolores dolorum officia
                                 placeat esse mollitia totam culpa aliquam possimus voluptatem.
                             </p>
-                            ...
+
                         </div>
                         <div class="tab-pane fade" id="pills-profile" role="tabpanel"
                             aria-labelledby="pills-profile-tab">
@@ -278,7 +282,7 @@
                                 libero, a animi doloribus repellat delectus! Aperiam unde
                                 explicabo ducimus eaque error recusandae maiores ipsum!
                             </p>
-                            ...
+
                         </div>
                         <div class="tab-pane fade" id="pills-contact" role="tabpanel"
                             aria-labelledby="pills-contact-tab">
@@ -288,12 +292,12 @@
                                 Minima architecto odio suscipit rerum velit sint facere
                                 adipisci! Harum, facilis amet.
                             </p>
-                            ...
+
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 px-md-0">
+            <div class="col-12 col-xl-6 px-xl-0 order-1 order-xl-2">
                 <img src="hero3.jpg" alt="" class="img-fluid" />
             </div>
         </div>
@@ -305,6 +309,9 @@
         <div class="container">
             <h2 class="text-center font-weight-bold mb-4">Testimonials</h2>
             <!-- Swiper -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+            <script>var rellax = new Rellax('.rellax');
+            </script>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -492,15 +499,37 @@
 </body>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
     crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
+<script src="smoothscroll.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".swiper-container", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+
+<script>
+    var rellax = new Rellax(".rellax");
+</script>
+
+<script src="smoothscroll.js"></script>
+</body>
+
+</html>
 </body>
 
 </html>
